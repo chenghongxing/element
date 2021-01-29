@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <a href="#/button">显示按钮</a>
     <router-view/>
   </div>
 </template>
