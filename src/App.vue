@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <a href="#/button">显示按钮</a>
+    <a href="#/container">container布局</a>
+    <a href="#/table">Table</a>
     <router-view/>
   </div>
 </template>

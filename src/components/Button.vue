@@ -2,7 +2,7 @@
     <div>
       <el-row>
         <el-button>默认按钮</el-button>
-        <el-button type="primary">主要按钮</el-button>
+        <el-button type="primary" @click="doget">请求按钮</el-button>
         <el-button type="success">成功按钮</el-button>
         <el-button type="info">信息按钮</el-button>
         <el-button type="warning">警告按钮</el-button>
@@ -13,7 +13,12 @@
 
 <script>
     export default {
-        name: "Button"
+        name: "Button",
+      methods:{
+        doget(){
+          this.$http.get("")
+        }
+      }
     }
 </script>
 
